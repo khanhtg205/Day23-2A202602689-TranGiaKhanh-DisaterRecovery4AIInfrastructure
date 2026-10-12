@@ -1,0 +1,13 @@
+{"ts": 1791788093.9877858, "iso": "2026-10-12T06:54:53Z", "step": "1_verify_target", "target": "b", "state": {"region": "b", "pool_state": "warm", "weights": false, "count": 0, "latest_doc_ts": null, "ts": 1791788093.9877858}}
+{"ts": 1791788094.0593362, "iso": "2026-10-12T06:54:54Z", "step": "2_restore_snapshot", "target": "b", "backend": "fs", "rpo_seconds": 4.46, "docs_lost": 6, "embed_model_version": "embed-model=vi-e5-base@v3", "snapshot_at": 1791788064.4199076}
+{"ts": 1791788094.0593362, "iso": "2026-10-12T06:54:54Z", "step": "3_scale_pool", "target": "b", "pool_state": "full"}
+{"ts": 1791788100.784309, "iso": "2026-10-12T06:55:00Z", "step": "4_wait_ready", "target": "b", "ok": true, "waited_s": 6.72}
+{"ts": 1791788100.8674414, "iso": "2026-10-12T06:55:00Z", "step": "5_dns_cutover", "target": "b"}
+{"ts": 1791788169.619566, "iso": "2026-10-12T06:56:09Z", "step": "1_verify_target", "target": "b", "state": {"region": "b", "pool_state": "warm"}}
+{"ts": 1791788169.6206005, "iso": "2026-10-12T06:56:09Z", "step": "2_restore_snapshot", "target": "b", "backend": "fs", "rpo_seconds": 4.46, "docs_lost": 6, "embed_model_version": "test", "snapshot_at": 1791788169.619566}
+{"ts": 1791788169.6211245, "iso": "2026-10-12T06:56:09Z", "step": "3_scale_pool", "target": "b", "pool_state": "full"}
+{"ts": 1791788170.6224308, "iso": "2026-10-12T06:56:10Z", "step": "4_wait_ready", "target": "b", "ok": false, "waited_s": 1.0, "error": "timeout"}
+{"ts": 1791788379.8946908, "iso": "2026-10-12T06:59:39Z", "step": "1_verify_target", "target": "b", "state": {"region": "b", "pool_state": "warm"}}
+{"ts": 1791788379.896324, "iso": "2026-10-12T06:59:39Z", "step": "2_restore_snapshot", "target": "b", "backend": "fs", "rpo_seconds": 4.46, "docs_lost": 6, "embed_model_version": "test", "snapshot_at": 1791788379.8952396}
+{"ts": 1791788379.8973782, "iso": "2026-10-12T06:59:39Z", "step": "3_scale_pool", "target": "b", "pool_state": "full"}
+{"ts": 1791788380.8988278, "iso": "2026-10-12T06:59:40Z", "step": "4_wait_ready", "target": "b", "ok": false, "waited_s": 1.0, "error": "timeout"}
